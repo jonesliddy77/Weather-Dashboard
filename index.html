@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="Assets/style.css">
+        <title>weather dashboard</title>
+</head>
+<body>
+  <header>
+    <h1>WEATHER DASHBOARD</h1>
+  </header>
+  <div class="container">
+  <form id="sub">
+    <input id="userInput" type="text" placeholder="Search for a City" >
+    <button id="search" >Search</button>
+  </form>
+  </div>
+  <div class="card weatherBox">
+    <div class="card-body">
+        <h3 class="place"></h3>
+        <p1 class="temperature">Temperature: </p1>
+        <p1 class="humidity">Humidity: </p1>
+        <p1 class="wind">Wind Speed: </p1>
+        <p1 class="uvIndex">UV Index: <span id="index"></span></p1>
+    </div>
+</div>
+<div>
+  <h2>5 Day Forecast</h2>
+  <div class="box">
+    <div id="0" class="box_body">
+      
+  </div>
+    <div id="1" class="box_body">
+    
+  </div>
+    <div id="2" class="box_body">
+    
+  </div>
+    <div id="3" class="box_body">
+      
+  </div>
+    <div id="4" class="box_body">
+      
+    </div>
+  </div>
+   
+  
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="Assets/script.js"></script>
+</html> 
+
+<!-- <body>
+          <h1>WEATHER DASHBOARD</h1>
+        <div class="container h-100">
+          <div class="d-flex justify-content-center h-100">
+            <div class="searchbar">
+              <input class="search_input" type="text" name="" placeholder="Search for City...">
+              <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+            </div>
+          </div>
+        </div>    -->
