@@ -45,7 +45,9 @@ h1 {
   background: white;
   color: #3ca3e771;
 }
-
+button{
+  background-color: #3ca3e771;
+}
 .search_icon {
   height: 40px;
   width: 40px;
@@ -96,7 +98,7 @@ h2 {
   font-family: "Josefin Sans", sans-serif;
 }
 @media (max-width: 650px) {
-  body, html {
+  body, html{
     background-color: red;
   }
   .box {
@@ -112,4 +114,5 @@ h2 {
     justify-content: center;
     height: 60px;
   }
+
 }
